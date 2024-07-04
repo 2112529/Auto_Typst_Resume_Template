@@ -87,17 +87,17 @@
 #resume_section("项目经历")
 
 #resume_item(
-  "深度学习期末项目",
+  "EGNet论文改进",
   "2024.02 -- 2024.07",
-  [尝试改进EGNet],
+  [深度学习期末项目],
   "借鉴F3Net中的Wiou和Wbce损失函数优化EGNet中针对显著性设计的损失函数"
 )
 
 #resume_item(
   "基于Hadoop纽约汽车数据分析及可视化展示",
   "2023.06 -- 2023.07",
-  [中软国际·实习项目],
-  "使用Hadoop集群 + Hive数据仓库存储 + MapReduce分析 + SQL导出 + 前端可视化完成该项目"
+  [中软国际实习项目],
+  "使用Hadoop集群 + Hive数据仓库存储 + MapReduce分析 + 前端可视化完成该项目"
 )
 
 
