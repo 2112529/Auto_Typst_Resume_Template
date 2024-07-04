@@ -63,7 +63,7 @@
   "科研实习",
   "实习生",
   [南开大学·视觉计算与智能感知重点实验室],
-  "2023.02至今"
+  "2024.02至今"
 )
 #resume_desc(
   "主要实习工作",
@@ -90,7 +90,7 @@
   "深度学习期末项目",
   "2024.02 -- 2024.07",
   [尝试改进EGNet],
-  "借鉴F3Net:Fusion, Feedback and Focus for Salient Object Detection中的Wiou和Wbce损失函数优化EGNet中针对显著性设计的损失函数"
+  "借鉴F3Net中的Wiou和Wbce损失函数优化EGNet中针对显著性设计的损失函数"
 )
 
 #resume_item(
