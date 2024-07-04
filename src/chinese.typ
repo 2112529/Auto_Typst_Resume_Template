@@ -67,9 +67,7 @@
 )
 #resume_desc(
   "主要实习工作",
-  "阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection",
-  "调研视觉感知与视觉认知相关领域论文",
-  "整理Lora相关技术的Awesome List"
+  "阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;调研视觉感知与视觉认知相关领域论文;整理Lora相关技术的Awesome List",
 )
 
 
