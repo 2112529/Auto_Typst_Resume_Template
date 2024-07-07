@@ -38,7 +38,7 @@
 #resume_item(
   "南开大学·计算机学院",
   "计算机科学与技术",
-  "专业排名：21/140  GPA：3.8  核心专业课：C++、Python、算法导论、数据结构、数据库原理、编译原理、深度学习、计算机视觉基础等",
+  "专业排名：21/140  GPA：3.8  核心专业课：C++、Python、算法导论、数据结构、数据库原理、机器学习、深度学习、计算机视觉基础等",
   "2021.09 -- 2025.06（预计）"
 )
 
@@ -51,7 +51,7 @@
 
 #resume_desc(
   "第四届计图人工智能挑战赛-开放阈少样本视觉分类赛道",
-  [尝试使用多种微调技术改进CLIP的学习能力]
+  [尝试使用多种模型微调技术改进CLIP的学习能力]
 )
 
 #resume_desc(
@@ -73,7 +73,7 @@
 )
 #resume_desc(
   "承担工作",
-  [前期：阅读顶会论文并整理Awesome-List，汇总最新工作的idea及核心代码。中后期：优化代码实现并在原数据集进行测试PSNR指标]
+  [前期：阅读图像增强顶会论文并整理Awesome-List，汇总最新工作的idea及核心代码。中后期：优化代码实现并在原数据集进行测试PSNR指标]
 )
 
 #resume_item(
@@ -84,7 +84,7 @@
 )
 #resume_desc(
   "主要实习工作",
-  "阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;调研并整理大模型微调Lora相关技术的Awesome List",
+  "调研并整理大模型微调Lora相关技术的Awesome List；阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;",
 )
 
 #resume_section("项目经历")
@@ -101,7 +101,7 @@
 
 #resume_desc(
   "编程语言",
-  [C++、Python为主，熟悉Java、HTML等]
+  [C++、Python为主，熟悉MySQL、Java、HTML等]
 )
 #resume_desc(
   "开发工具",
@@ -109,9 +109,13 @@
 )
 #resume_desc(
   "知识领域",
-  [深度学习（熟练掌握Pytorch框架）、计算机视觉、目标检测（SOD）等]
+  [机器学习（熟练SVM）、深度学习（熟练掌握Pytorch框架）、计算机视觉、目标检测（SOD）等]
 )
 #resume_desc(
   "外语能力",
   [CET-4 621分、CET-6 566分]
+)
+#resume_desc(
+  "性格特征",
+  [乐观开朗，善于交流合作]
 )
