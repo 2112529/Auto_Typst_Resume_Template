@@ -38,8 +38,25 @@
 #resume_item(
   "南开大学·计算机学院",
   "计算机科学与技术",
-  "专业排名：21/140  GPA：3.8  核心专业课：C++、Python、算法导论、数据结构、概率论、线性代数、机器学习、深度学习、计算机视觉基础等",
+  "专业排名：21/140  GPA：3.8  核心专业课：C++、Python、算法导论、数据结构、数据库原理、编译原理、深度学习、计算机视觉基础等",
   "2021.09 -- 2025.06（预计）"
+)
+
+#resume_section([竞赛经历与所获表彰])
+
+#resume_desc(
+  "2023全国大学生计算机系统能力大赛暨第三届 OceanBase 数据库大赛：",
+  [作为队长带领队伍获得天津市第五名的成绩，代码开源在：https://github.com/2112529/NKUBase]
+)
+
+#resume_desc(
+  "第四届计图人工智能挑战赛-开放阈少样本视觉分类赛道",
+  [尝试使用多种微调技术改进CLIP的学习能力]
+)
+
+#resume_desc(
+  "奖学金：",
+  [国家励志奖学金、公能奖学金等]
 )
 
 #resume_section([科研经历])
@@ -67,31 +84,10 @@
 )
 #resume_desc(
   "主要实习工作",
-  "阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;调研视觉感知与视觉认知相关领域论文;整理Lora相关技术的Awesome List",
+  "阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;调研并整理大模型微调Lora相关技术的Awesome List",
 )
-
-
-#resume_section([竞赛经历与所获表彰])
-
-#resume_desc(
-  "2023全国大学生计算机系统能力大赛暨第三届 OceanBase 数据库大赛：",
-  [作为队长带领队伍获得天津市第五名的成绩，代码开源在：https://github.com/2112529/NKUBase]
-)
-
-#resume_desc(
-  "奖学金：",
-  [国家励志奖学金、公能奖学金等]
-)
-
 
 #resume_section("项目经历")
-
-#resume_item(
-  "EGNet论文改进",
-  "2024.02 -- 2024.07",
-  [深度学习期末项目],
-  "借鉴F3Net中的Wiou和Wbce损失函数优化EGNet中针对显著性设计的损失函数"
-)
 
 #resume_item(
   "基于Hadoop纽约汽车数据分析及可视化展示",
@@ -113,13 +109,9 @@
 )
 #resume_desc(
   "知识领域",
-  [深度学习（熟练掌握Pytorch框架）、计算机视觉等]
+  [深度学习（熟练掌握Pytorch框架）、计算机视觉、目标检测（SOD）等]
 )
 #resume_desc(
   "外语能力",
-  [CET-4 621分、CET-6 566分。]
-)
-#resume_desc(
-  "感兴趣的研究方向",
-  [显著目标检测、伪装目标检测、神经科学及认知科学启发下的深度学习模型、高精度图像分割等]
+  [CET-4 621分、CET-6 566分]
 )
