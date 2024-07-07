@@ -105,7 +105,7 @@
 
 #resume_desc(
   "编程语言",
-  [C++、Python为主，熟悉Java、Verilog、HTML等]
+  [C++、Python为主，熟悉Java、HTML等]
 )
 #resume_desc(
   "开发工具",
@@ -113,7 +113,7 @@
 )
 #resume_desc(
   "知识领域",
-  [机器学习、深度学习、计算机视觉、强化学习等]
+  [深度学习（熟练掌握Pytorch框架）、计算机视觉等]
 )
 #resume_desc(
   "外语能力",
