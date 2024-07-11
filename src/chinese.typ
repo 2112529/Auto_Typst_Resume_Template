@@ -66,6 +66,22 @@
   [国家励志奖学金、公能奖学金等]
 )
 
+#resume_section("实习经历")
+
+#resume_item(
+  "海证期货有限公司",
+  "2023.08 -- 2023.09",
+  [私募数据分析平台开发],
+  "使用Django框架进行前后端开发，并集成Pandas和Matplotlib进行数据分析与可视化"
+)
+
+#resume_item(
+  "中软国际",
+  "2023.06 -- 2023.07",
+  [基于Hadoop纽约汽车数据分析及可视化展示],
+  "使用Hadoop集群 + Hive数据仓库存储 + MapReduce分析 + 前端可视化完成该项目"
+)
+
 #resume_section([科研经历])
 
 #resume_item(
