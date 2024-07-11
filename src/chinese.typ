@@ -110,16 +110,6 @@
   "调研并整理大模型微调Lora相关技术的Awesome List；阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;",
 )
 
-#resume_section("项目经历")
-
-#resume_item(
-  "显著目标检测模型设计",
-  "2024.02 -- 2024.07",
-  [深度学习课程期末项目],
-  "基于EGNet提出的模型进行改进，借鉴F3Net中的Wiou和Wbce损失函数以及CFM模块进行优化改进"
-)
-
-
 #resume_section([专业技能])
 
 #resume_desc(
