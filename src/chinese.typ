@@ -42,46 +42,6 @@
   "2021.09 -- 2025.06（预计）"
 )
 
-#resume_item(
-  "南开大学·金融学院",
-  "金融学（辅修）",
-  "核心专业课：微观经济学、计量经济学、商业银行管理学等",
-  "2022.09 -- 2025.06（预计）"
-)
-
-#resume_section([竞赛经历与所获表彰])
-
-#resume_desc(
-  "2023全国大学生计算机系统能力大赛暨第三届 OceanBase 数据库大赛：",
-  [作为队长带领队伍获得天津市第五名的成绩，代码开源在：https://github.com/2112529/NKUBase]
-)
-
-#resume_desc(
-  "第四届计图人工智能挑战赛-开放阈少样本视觉分类赛道",
-  [尝试使用多种模型微调技术改进CLIP的学习能力]
-)
-
-#resume_desc(
-  "奖学金：",
-  [国家励志奖学金、公能奖学金等]
-)
-
-#resume_section("实习经历")
-
-#resume_item(
-  "海证期货有限公司",
-  "2023.08 -- 2023.09",
-  [私募数据分析平台开发],
-  "使用Django框架进行前后端开发，并集成Pandas和Matplotlib进行数据分析与可视化"
-)
-
-#resume_item(
-  "中软国际",
-  "2023.06 -- 2023.07",
-  [基于Hadoop纽约汽车数据分析及可视化展示],
-  "使用Hadoop集群 + Hive数据仓库存储 + MapReduce分析 + 前端可视化完成该项目"
-)
-
 #resume_section([科研经历])
 
 #resume_item(
@@ -96,7 +56,7 @@
 )
 #resume_desc(
   "承担工作",
-  [前期：阅读图像增强顶会论文并整理Awesome-List，汇总最新工作的idea及核心代码。中后期：优化代码实现并在原数据集进行测试PSNR指标]
+  [前期：阅读图像暗光增强顶会论文并整理Awesome-List，汇总最新工作的idea及核心代码。中后期：优化代码实现并在原数据集进行测试PSNR指标]
 )
 
 #resume_item(
@@ -109,6 +69,36 @@
   "主要实习工作",
   "调研并整理大模型微调Lora相关技术的Awesome List；阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;",
 )
+
+#resume_section([竞赛经历与所获表彰])
+
+#resume_desc(
+  "2023全国大学生计算机系统能力大赛暨第三届 OceanBase 数据库大赛：",
+  [作为队长带领队伍获得天津市第五名的成绩，代码开源在：https://github.com/2112529/NKUBase]
+)
+
+#resume_desc(
+  "奖学金：",
+  [国家励志奖学金、公能奖学金等]
+)
+
+#resume_section("项目经历")
+
+#resume_item(
+  "EGNet论文改进",
+  "2024.02 -- 2024.07",
+  [深度学习期末项目],
+  "借鉴F3Net中的Wiou和Wbce损失函数优化EGNet中针对显著性设计的损失函数"
+)
+
+#resume_item(
+  "基于Hadoop纽约汽车数据分析及可视化展示",
+  "2023.06 -- 2023.07",
+  [中软国际实习项目],
+  "使用Hadoop集群 + Hive数据仓库存储 + MapReduce分析 + 前端可视化完成该项目"
+)
+
+
 
 #resume_section([专业技能])
 
