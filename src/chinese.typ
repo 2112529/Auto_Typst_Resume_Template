@@ -67,7 +67,7 @@
 )
 #resume_desc(
   "主要实习工作",
-  "调研并整理大模型微调Lora相关技术的Awesome List；阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;",
+  "进行COD（伪装目标检测）方向的毕业设计；调研并整理大模型微调Lora相关技术的Awesome List；阅读并翻译论文Uncertainty Inspired RGB-D Saliency Detection;",
 )
 
 #resume_section([竞赛经历与所获表彰])
@@ -85,10 +85,10 @@
 #resume_section("项目经历")
 
 #resume_item(
-  "EGNet论文改进",
+  "EGNet改进",
   "2024.02 -- 2024.07",
   [深度学习期末项目],
-  "借鉴F3Net中的Wiou和Wbce损失函数优化EGNet中针对显著性设计的损失函数"
+  "借鉴F3Net中的Wiou和Wbce损失函数优化EGNet中针对显著性设计的损失函数；尝试优化不同层次特征的融合方式"
 )
 
 #resume_item(
@@ -112,7 +112,7 @@
 )
 #resume_desc(
   "知识领域",
-  [机器学习（熟练SVM）、深度学习（熟练掌握Pytorch框架）、计算机视觉、目标检测（SOD）等]
+  [SVM、深度学习、计算机视觉、显著目标检测、伪装目标检测等]
 )
 #resume_desc(
   "外语能力",
