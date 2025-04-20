@@ -60,8 +60,8 @@
 
 #resume_item(
   "论文：《Remote Sensing Tuning: A Survey》",
-  "第二作者"
-  "投稿至CVMJ",
+  "第二作者",
+  "已投稿至CVMJ",
   "2024.11-2024.2",
 )
 
