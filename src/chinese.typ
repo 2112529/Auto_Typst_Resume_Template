@@ -59,8 +59,10 @@
 #resume_section([科研经历])
 
 #resume_item(
-  "论文投稿：《Remote Sensing Tuning: A Survey》",
+  "论文：《Remote Sensing Tuning: A Survey》",
   "第二作者"
+  "投稿至CVMJ",
+  "2024.11-2024.2",
 )
 
 #resume_item(
