@@ -9,13 +9,13 @@ jobs:
             contents: write
         steps:
         - name: Checkout master
-          uses: actions/checkout@v3
-          with:  
+          uses: actions/checkout@v4
+          with:
             fetch-depth: 0
         - uses: typst-community/setup-typst@v5
           id: setup-typst
           with:
-            version: 'v0.12.0'
+            typst-version: 'v0.12.0'
         - name: Build PDF
           run: 'make all'
         - name: Git Auto Commit
@@ -26,4 +26,3 @@ jobs:
             branch: 'main'
             file_pattern: '*.pdf'
             repository: .
-            
