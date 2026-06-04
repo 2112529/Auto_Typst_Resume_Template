@@ -37,18 +37,14 @@
             align: (left, top),
             [
                 #text(style: "normal", weight: "bold", size: 28pt)[个人简历]
-                #v(0.05em)
-                #text(style: "normal", weight: "regular", size: 11pt)[PERSONAL RESUME]
-                #v(0.4em)
+                #v(0.35em)
                 #text(style: "normal", weight: "extrabold", size: 18pt)[#name]
             ],
             image(pic_path, width: pic_width, height: pic_height),
         )
     } else {
         text(style: "normal", weight: "bold", size: 28pt)[个人简历]
-        v(0.05em)
-        text(style: "normal", weight: "regular", size: 11pt)[PERSONAL RESUME]
-        v(0.4em)
+        v(0.35em)
         text(style: "normal", weight: "extrabold", size: 18pt)[#name]
     }
 
