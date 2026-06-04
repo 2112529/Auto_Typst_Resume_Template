@@ -27,44 +27,30 @@
       author: name,
     )
 
-    // 照片浮动到页面右上角
-    if pic_path != "" {
-        place(
-            top + right,
-            float: true,
-            dx: -0.2cm,
-            dy: 0.2cm,
-            image(
-                pic_path,
-                width: pic_width,
-                height: pic_height,
-            ),
-        )
-    }
-
-    // 左上角：中文大标题 + 英文副标题
     set align(left)
-    text(
-        style: "normal",
-        weight: "bold",
-        size: 28pt,
-    )[个人简历]
 
-    v(0.05em)
-    text(
-        style: "normal",
-        weight: "regular",
-        size: 11pt,
-    )[PERSONAL RESUME]
-
-    v(0.4em)
-
-    // 姓名
-    text(
-        style: "normal",
-        weight: "extrabold",
-        size: 18pt,
-    )[#name]
+    // 用 grid 实现左文右图布局，照片在正常文档流中位置可控
+    if pic_path != "" {
+        grid(
+            columns: (1fr, auto),
+            gutter: 0.5cm,
+            align: (left, top),
+            [
+                #text(style: "normal", weight: "bold", size: 28pt)[个人简历]
+                #v(0.05em)
+                #text(style: "normal", weight: "regular", size: 11pt)[PERSONAL RESUME]
+                #v(0.4em)
+                #text(style: "normal", weight: "extrabold", size: 18pt)[#name]
+            ],
+            image(pic_path, width: pic_width, height: pic_height),
+        )
+    } else {
+        text(style: "normal", weight: "bold", size: 28pt)[个人简历]
+        v(0.05em)
+        text(style: "normal", weight: "regular", size: 11pt)[PERSONAL RESUME]
+        v(0.4em)
+        text(style: "normal", weight: "extrabold", size: 18pt)[#name]
+    }
 
     v(0.25em)
 }
