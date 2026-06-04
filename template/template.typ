@@ -19,21 +19,21 @@
 #let init(
     name: lorem(3),
     pic_path: "",
-    pic_width: 3.5cm,
-    pic_height: 4.67cm,
+    pic_width: 2.8cm,
+    pic_height: 3.73cm,
 ) = {
     set document(
       title: name + "'s Resume",
       author: name,
     )
 
-    // 照片浮动到页面右上角，纵向与标题齐平
+    // 照片浮动到页面右上角
     if pic_path != "" {
         place(
             top + right,
             float: true,
             dx: -0.2cm,
-            dy: 0cm,
+            dy: 0.2cm,
             image(
                 pic_path,
                 width: pic_width,
@@ -42,24 +42,31 @@
         )
     }
 
-    // 左上角大标题，与照片顶部纵向齐平
+    // 左上角：中文大标题 + 英文副标题
     set align(left)
     text(
         style: "normal",
         weight: "bold",
-        size: 30pt,
+        size: 28pt,
+    )[个人简历]
+
+    v(0.05em)
+    text(
+        style: "normal",
+        weight: "regular",
+        size: 11pt,
     )[PERSONAL RESUME]
 
-    v(0.3em)
+    v(0.4em)
 
     // 姓名
     text(
         style: "normal",
         weight: "extrabold",
-        size: 20pt,
+        size: 18pt,
     )[#name]
 
-    v(0.2em)
+    v(0.25em)
 }
 
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}

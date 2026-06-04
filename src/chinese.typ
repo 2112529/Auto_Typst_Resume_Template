@@ -4,7 +4,7 @@
 
 #init(
     name: "赵廷枫",
-    // 证件照路径（默认尺寸 3.5cm × 4.67cm，比例 3:4）
+    // 证件照路径（默认尺寸 2.8cm × 3.73cm，比例 3:4）
     pic_path: "/img/zhaotingfeng.jpg",
 )
 
