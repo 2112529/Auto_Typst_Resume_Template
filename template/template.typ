@@ -62,6 +62,8 @@
     v(0.2em)
 }
 
+#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
+
 #let info(
     color: rgb(0, 0, 0),
     ..infos
@@ -94,8 +96,6 @@
     chiline()
     v(0.6em)
 }
-
-#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
 
 #let resume_section(title) = {
     [== #title]
