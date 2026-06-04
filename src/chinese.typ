@@ -4,9 +4,8 @@
 
 #init(
     name: "赵廷枫",
-    // 插入图片功能尚未支持
-    // pic_path: "/img/avatar.jpg",
-    pic_path : "",
+    // 使用 /img/avatar.jpg 作为证件照（支持 jpg/png，建议比例 3:4）
+    pic_path: "/img/avatar.jpg",
 )
 
 #info(

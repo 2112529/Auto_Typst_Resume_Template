@@ -17,46 +17,39 @@
 }
 
 #let init(
-    name:lorem(3),
+    name: lorem(3),
     pic_path: "",
+    pic_width: 2.5cm,
+    pic_height: 3.33cm,
 ) = {
     set document(
       title: name + "'s Resume",
       author: name,
     )
-    set align (
-        center,
-    )
-    if pic_path == ""{
-        text(
-            style: "normal",
-            weight: "extrabold",
-            size: 20pt,
-        )[#name]
-    }
-    else {
-    // insert picture
-        table(
-            columns: (83%, 17%),
-            rows: 1em,
-            align: 
-            (x, y) => {
-                (center, right).at(x);
-            },
-            stroke: none,
-            text(
-            style: "normal",
-            weight: "extrabold",
-            size: 22pt,
-            )[#name],
+    set align(center)
+
+    // 始终居中显示姓名
+    text(
+        style: "normal",
+        weight: "extrabold",
+        size: 20pt,
+    )[#name]
+
+    // 如果提供了照片路径，浮动到页面右上角
+    if pic_path != "" {
+        place(
+            alignment: top + right,
+            float: true,
+            dx: -0.3cm,
+            dy: 0.3cm,
             image(
                 pic_path,
-                width: 2.5cm,
-                height: 3.33cm,
+                width: pic_width,
+                height: pic_height,
             )
         )
     }
-    // v(1em)
+
     set align(left)
 }
 
@@ -66,7 +59,6 @@
 ) = {
     set text(
         fill: color,
-        // size: 10pt,
     )
     set align(
         center,
