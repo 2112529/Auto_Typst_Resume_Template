@@ -38,7 +38,7 @@
     // 如果提供了照片路径，浮动到页面右上角
     if pic_path != "" {
         place(
-            alignment: top + right,
+            top + right,
             float: true,
             dx: -0.3cm,
             dy: 0.3cm,
@@ -46,7 +46,7 @@
                 pic_path,
                 width: pic_width,
                 height: pic_height,
-            )
+            ),
         )
     }
 
