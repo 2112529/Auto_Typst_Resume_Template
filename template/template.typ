@@ -19,29 +19,21 @@
 #let init(
     name: lorem(3),
     pic_path: "",
-    pic_width: 2.5cm,
-    pic_height: 3.33cm,
+    pic_width: 3.5cm,
+    pic_height: 4.67cm,
 ) = {
     set document(
       title: name + "'s Resume",
       author: name,
     )
-    set align(center)
 
-    // 始终居中显示姓名
-    text(
-        style: "normal",
-        weight: "extrabold",
-        size: 20pt,
-    )[#name]
-
-    // 如果提供了照片路径，浮动到页面右上角
+    // 照片浮动到页面右上角，纵向与标题齐平
     if pic_path != "" {
         place(
             top + right,
             float: true,
-            dx: -0.3cm,
-            dy: 0.3cm,
+            dx: -0.2cm,
+            dy: 0cm,
             image(
                 pic_path,
                 width: pic_width,
@@ -50,7 +42,24 @@
         )
     }
 
+    // 左上角大标题，与照片顶部纵向齐平
     set align(left)
+    text(
+        style: "normal",
+        weight: "bold",
+        size: 30pt,
+    )[PERSONAL RESUME]
+
+    v(0.3em)
+
+    // 姓名
+    text(
+        style: "normal",
+        weight: "extrabold",
+        size: 20pt,
+    )[#name]
+
+    v(0.2em)
 }
 
 #let info(
@@ -59,10 +68,9 @@
 ) = {
     set text(
         fill: color,
+        size: 10pt,
     )
-    set align(
-        center,
-    )
+    set align(left)
     infos.pos().map(dir => {
         box(
             height: 1em,
@@ -81,8 +89,10 @@
                 dir.content
             }
         })
-    }).join(h(0.5em) + "·" + h(0.5em))
-    v(0.5em)
+    }).join(h(0.3em) + "·" + h(0.3em))
+    v(0.4em)
+    chiline()
+    v(0.6em)
 }
 
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
@@ -100,7 +110,7 @@
     }
     if proj_postion != none or proj_rule != none {
         linebreak()
-    }   
+    }
     if proj_postion != none {
         [#proj_postion]
     }

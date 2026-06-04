@@ -4,8 +4,8 @@
 
 #init(
     name: "赵廷枫",
-    // 使用 /img/avatar.jpg 作为证件照（支持 jpg/png，建议比例 3:4）
-    pic_path: "/img/avatar.jpg",
+    // 证件照路径（默认尺寸 3.5cm × 4.67cm，比例 3:4）
+    pic_path: "/img/zhaotingfeng.jpg",
 )
 
 #info(
@@ -38,14 +38,14 @@
   "南开大学·计算机学院",
   "计算机科学与技术",
   "专业排名：21/140  GPA：3.8  核心专业课：C++、Python、算法导论、数据结构、数据库原理、机器学习、深度学习、计算机视觉基础等",
-  "2021.09 -- 2025.06（预计）"
+  "2021.09 -- 2025.06"
 )
 
 #resume_item(
   "山东省临沂第一中学",
   "2018.09 -- 2021.06",
   "班长",
-  "市级优秀班干部"
+  "市级优秀学生干部"
 )
 
 #resume_section([所获表彰])
@@ -64,22 +64,22 @@
 #resume_item(
   "论文：《Remote Sensing Tuning: A Survey》",
   "第二作者",
-  "已投稿至CVMJ",
-  "2024.11-2024.2",
+  "已投稿至 CVMJ",
+  "2024.11 -- 2025.02",
 )
 
 #resume_item(
   "科研实习",
   "实习生",
   [南开大学·媒体计算实验室],
-  "2024.02至今"
+  "2024.02 至今"
 )
 
 #resume_item(
   "基于综合先验的图像暗光增强研究",
   "项目组成员",
   "国家级大学生创新科研项目",
-  "2023.03-2024.04",
+  "2023.03 -- 2024.04",
 )
 
 
@@ -88,11 +88,11 @@
 
 #resume_desc(
   "编程语言",
-  [C++、Python为主，使用过MySQL、Java、HTML等]
+  [C++、Python 为主，使用过 MySQL、Java、HTML 等]
 )
 #resume_desc(
   "开发工具",
-  [VScode、Git、Vim、Make等]
+  [VS Code、Git、Vim、Make 等]
 )
 #resume_desc(
   "知识领域",
@@ -100,7 +100,7 @@
 )
 #resume_desc(
   "外语能力",
-  [CET-4 621分、CET-6 566分]
+  [CET-4 621 分、CET-6 566 分]
 )
 #resume_desc(
   "性格特征",
