@@ -18,6 +18,7 @@
 
 #let init(
     name: lorem(3),
+    title_text: "个人简历",
     pic_path: "",
     pic_width: 2.8cm,
     pic_height: 3.73cm,
@@ -36,14 +37,14 @@
             gutter: 0.5cm,
             align: (left, top),
             [
-                #text(style: "normal", weight: "bold", size: 28pt)[个人简历]
+                #text(style: "normal", weight: "bold", size: 28pt)[#title_text]
                 #v(0.35em)
                 #text(style: "normal", weight: "extrabold", size: 18pt)[#name]
             ],
             image(pic_path, width: pic_width, height: pic_height),
         )
     } else {
-        text(style: "normal", weight: "bold", size: 28pt)[个人简历]
+        text(style: "normal", weight: "bold", size: 28pt)[#title_text]
         v(0.35em)
         text(style: "normal", weight: "extrabold", size: 18pt)[#name]
     }

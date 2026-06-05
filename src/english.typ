@@ -4,6 +4,7 @@
 
 #init(
     name: "Zhao Tingfeng",
+    title_text: "Resume",
     // Photo path (default size: 2.8cm × 3.73cm, ratio 3:4)
     pic_path: "/img/zhaotingfeng.jpg",
 )
